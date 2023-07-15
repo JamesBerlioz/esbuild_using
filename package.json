@@ -1,0 +1,14 @@
+{
+  "name": "vite_first_using",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild ./src/index.js --bundle --outdir=\"build\" --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "0.18.13"
+  }
+}
